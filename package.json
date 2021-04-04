@@ -36,7 +36,7 @@
     }
   },
   "lint-staged": {
-    "src/*.{js,jsx,json,scss}": [
+    "*.{js,jsx,json,scss}": [
       "npm run prettier",
       "git add"
     ]
