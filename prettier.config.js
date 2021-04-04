@@ -1,8 +1,9 @@
 const rules = {
     singleQuote: true,
     semi: false,
-    trailingComma: 'all',
+    tabWidth: 4,
+    trailingComma: 'es5',
     printWidth: 120,
-};
+}
 
-module.exports = rules;
+module.exports = rules
